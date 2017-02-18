@@ -1,0 +1,90 @@
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand|Reem+Kufi|Satisfy|Spinnaker" rel="stylesheet">
+* {
+    color: #000;
+    overflow: hidden;
+}
+.nav {
+    width: 82em;
+    height:50em;
+    margin: -1em;
+}
+.pic {
+    height: 60px;
+    width: 200px;
+    border:none;
+}
+img {
+    background-color: white;
+}
+body {
+    background-image: url(../../images/blue%20flowers.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    
+}
+.traincount {
+    background-color: #ACACAB;
+    margin:1em;
+    padding:1em;
+    font-size: .7em;
+    /*position: absolute;
+    top: 30em;
+    right: 2em;
+    width: 450px;
+    height: 43px;
+    vertical-align: middle;
+    color: black;
+    padding: 4px;
+    font-size: 90%;*/
+}
+main {
+    background: white /*#ADB2BE*/;
+    font-family:'Quicksand', sans-serif;
+    font-size: 125%;
+    text-align: center;
+    position: absolute;
+    top: 30em;
+    width: 38em;
+    margin:1.5em;
+    padding:1em;
+    
+}
+#sidebar {
+    position: absolute;
+    font-family:'Quicksand', sans-serif;
+    top: 37.3em;
+    right: 3.6em;
+    clear: left;
+    width: 20em;
+    height: 77em;
+    background: #006AB2/*#0082DB*/;
+    vertical-align: middle;
+    color: white
+}
+.sb-content {
+    background-color: #C0CADA;
+    border:none;
+    margin: 2em;
+    padding: 1em;
+    text-align: center;
+    align-content: center;
+    
+}
+.social-buttons{
+  float:left;
+    background-color: #C0CADA;
+    width: 20em;
+    vertical-align: middle;
+}
+.hotlines {
+    font-size: 75%;
+    word-spacing: normal;
+    line-height: 10%;
+}
+h1 {
+    font-weight: 500;
+    font-size-adjust: 500%;
+}
+h3 {
+    font-size: 250%
+}

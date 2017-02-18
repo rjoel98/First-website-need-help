@@ -1,0 +1,90 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Raleway|Romanesco|Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Playball" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Clicker+Script|Engagement|Roboto+Slab:700|Romanesco|Tinos:700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Dancing+Script|Droid+Serif|IM+Fell+French+Canon:400i|Indie+Flower|Kaushan+Script|Knewave|Lato:100|Marck+Script|Merriweather:300|Orbitron|Oswald:300|PT+Sans+Narrow|Pacifico|Permanent+Marker|Qwigley|Roboto+Mono|Roboto+Slab:100|Ruthie|Sarina|Seaweed+Script" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand|Reem+Kufi|Satisfy|Spinnaker" rel="stylesheet">
+* {
+    color: #000;
+    overflow: hidden;
+}
+.nav {
+    width: 82em;
+    height:50em;
+    margin: -1em;
+}
+body {
+    background-image: url(../../images/pink%20flower.jpg);
+    background-size: cover;
+}
+.main{
+    text-align: center;
+    margin: 10em;
+    
+}
+h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 5em;
+}
+.1 {
+font-family: 'Dancing Script', cursive;
+}
+.2 {
+font-family: 'Qwigley', cursive;
+}
+.3 {
+font-family: 'Seaweed Script', cursive;
+}
+.4 {
+font-family: 'IM Fell French Canon', serif;
+}
+.5 {
+font-family: 'Sarina', cursive;
+}
+.6 {
+font-family: 'Ruthie', cursive;
+}
+.7 {
+font-family: 'Knewave', cursive;
+}
+.8 {
+font-family: 'Marck Script', cursive; 
+}
+.9 {
+font-family: 'Caveat', cursive;    
+}
+.10 {
+font-family: 'Roboto Mono', monospace;   
+}
+.11 {
+font-family: 'Oswald', sans-serif;    
+}
+.12 {
+font-family: 'PT Sans Narrow', sans-serif;    
+}
+.13 {
+font-family: 'Orbitron', sans-serif;    
+}
+.14 {
+font-family: 'Permanent Marker', cursive;    
+}
+.15 {
+font-family: 'Droid Serif', serif;    
+}
+.16 {
+font-family: 'Roboto Slab', serif;    
+}
+.17 {
+font-family: 'Pacifico', cursive;    
+}
+.18 {
+font-family: 'Indie Flower', cursive;    
+}
+.19 {
+font-family: 'Lato', sans-serif;    
+}
+.20 {
+font-family: 'Merriweather', serif;    
+}
+.21 {
+font-family: 'Amatic SC', cursive;    
+}

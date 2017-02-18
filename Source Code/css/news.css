@@ -1,0 +1,9 @@
+.nav {
+    width: 82em;
+    height:50em;
+    margin: -1em;
+}
+body {
+    background-image: url(../../images/pink%20flower.jpg);
+    background-size: cover;
+}

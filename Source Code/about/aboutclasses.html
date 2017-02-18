@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+    <link rel="stylesheet" type="text/css" href="../css/aboutclasses.css">
+    <link rel="stylesheet" type="java" href="../js/form.js">
+    <script>function validateForm() {
+    var x = document.forms["classes"]["required"].value;
+    if (x == "") {
+        alert("All fields with * must be filled out");
+        return false;
+    }
+} </script>
+<title>About Classes</title>
+    
+<object class="nav" name="nav" type="text/html" data="../nav.html"></object>
+
+<header><body><main class="main">
+    <div class="traincount">TOTAL TRAINED IN STEWARDS OF CHILDREN, <br>
+            CHILD SEXUAL ABUSE PREVENTION TO DATE = 125!</div><br>
+        <section><h3>What is Stewards of Children?</h3>
+        <ul class="li">
+                <li class="li">A program that addresses child sexual abuse in the context of today's issues.</li>
+                <li class="li">A program that features a combination of survivor stories, expert advice, and practical guidance.</li>
+                <li class="li">A program that shows you how a simple, 5-step approach can protect the children you love from sexual abuse.</li>
+        </ul></section>
+
+        <section><h3>What will I learn from taking Stewards of Children?</h3>
+            <p>You'll learn The 5 Steps to Protecting our ChildrenTM, and how they can be applied to keep kids safe. You'll learn how a few simple actions can have far-reaching positive effects.  You'll leave with the understanding that child sexual abuse can be prevented, it can be stopped, and it can be overcome.</p>  
+
+            <p>Stewards is approved for 2 contact hours of 
+            continuing education for Social Work and Nursing degrees. 
+            Early Education Teachers and Child Care Providers may submit on their own for approval.</p>
+
+            <p>The cost of training is $25.00 per person. Payment due upon registration.
+            Payment is non-refundable Registration is not complete until payment is received. </p>
+
+            <p>New classes will be added monthly!</p></section>
+    <form action="../Forms" name="classes" onsubmit="return validateForm()">
+        <h4>Sign Up bellow and then press Pay Now to complete registration</h4><br>
+    <div class="red">All Fields Required<br></div>
+            First Name:<br>
+            <input name="required" type="text"  required name="firstname"><br>
+            Last Name:<br>
+            <input name="required" type="text" required name="lastname"><br>
+            E-mail:<br>
+            <input name="required" type="email" required name="email"><br>
+            Phone:<br>
+            <input name="required" type="tel" required name="phone"><br>
+            Class Dates:<br>
+            <label><input type="checkbox" name="servivors">Febuary 5, 2017</label><br>
+            <label><input type="checkbox" name="parents">Febuary 19,2017</label><br>
+            <!--<label><input type="checkbox" name="classes"></label><br>
+            Additional Comments:<br>
+            <textarea rows="4" cols="50"></textarea>-->
+ <button
+                    class="g-recaptcha"
+                    data-sitekey="6Let6w4UAAAAAM6wVK89KM2HWiJWo_MFtSXukHhm"
+                    data-callback="YourOnSubmitFn" onclick="myFunction()">
+     Submit
+
+</button></form><br>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="TUU7ADTYXKTY4">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </main></body></header></div></head></html>

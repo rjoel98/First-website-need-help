@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src='https://www.google.com/recaptcha/api.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Clicker+Script|Engagement|Roboto+Slab:700|Romanesco|Tinos:700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+    <script href="js/form.js"></script>
+<title>Contact Me</title>
+    
+<object class="nav" name="nav" type="text/html" data="nav.html"></object>
+
+        <main class="main">
+<form role="contact" action="submitions.php" onsubmit="return validForm()" method="post">
+    <h3>Contact Me</h3>
+    <p>Please leave your name and best contact info and I will get back to you within 24 hours.
+        <!--If you are signing up for a class, please indicate which date you are interested in attending.-->
+        I look forward to talking to you soon!</p>
+            First Name:<br>
+            <input type="text" name="firstName"><br>
+            Last Name:<br>
+            <input type="text" name="lastName"><br>
+            E-mail:<br>
+            <input type="email" name="email"><br>
+            More info:<br>
+            <label><input type="checkbox" name="servivors">Survivors</label><br>
+            <label><input type="checkbox" name="parents">Parents</label><br>
+            <label><input type="checkbox" name="classes">Classes</label><br>
+            
+            Subject:<br>
+            <input type="text" name="subject"><br>
+            Message:<br>
+            <textarea rows="4" cols="50"></textarea>
+            <button
+                    class="g-recaptcha"
+                    data-sitekey="6Let6w4UAAAAAM6wVK89KM2HWiJWo_MFtSXukHhm"
+                    data-callback="YourOnSubmitFn">
+                Submit
+            </button>
+        </form>
+        </main></body></html>

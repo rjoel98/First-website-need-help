@@ -1,0 +1,48 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Raleway|Romanesco|Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Clicker+Script|Engagement|Roboto+Slab:700|Romanesco|Tinos:700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand|Reem+Kufi|Satisfy|Spinnaker" rel="stylesheet">
+* {
+    color: #000;
+    overflow: hidden;
+}
+.nav {
+    width: 82em;
+    height:50em;
+    margin: -1em;
+}
+body {
+    background-image: url(../../images/pink%20flower.jpg);
+    background-size: cover;
+    
+}
+.main {
+    background-color: rgba(192,202,218,.9);
+    margin: 3%;
+    padding: 2%;
+    text-align: center;
+    overflow: scroll;
+}
+h4 {
+    font-size: 100%;
+}
+h3 {
+    font-size: 150%
+}
+p {
+    font-size: 100%;
+}
+.red {
+    color: red;
+}
+.traincount {
+    position: absolute;
+    top: 36.5em;
+    width: 450px;
+    vertical-align: middle;
+    color: white;
+    margin-top: 5px;
+    background-color: #7D3D8F;
+    padding: 4px;
+    font-size: 1em;
+    z-index: 1;
+}
