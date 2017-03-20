@@ -1,0 +1,173 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Raleway|Romanesco|Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Playball" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Clicker+Script|Engagement|Roboto+Slab:700|Romanesco|Tinos:700i"
+rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Rajdhani:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand|Reem+Kufi|Satisfy|Spinnaker" rel="stylesheet">
+* {
+    color: #000;
+    overflow: hidden;
+}
+.header {
+    background-image: url(../images/m%20view.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    padding: 15em;
+    margin: -1em;
+}
+h1 {
+    text-align: center;
+    font-size: 500%;
+    position:absolute;
+    top: 3em;
+    left: 4em;
+    margin: -1em;
+    font-family: 'Pacifico', cursive;
+
+}
+.pic {
+    height: 60px;
+    width: 200px;
+}
+img {
+    background-color: white;
+    margin:.3em;
+}
+h2 {
+    font-family: 'Spinnaker', sans-serif;
+    color: white;
+    font-size: 175%;
+    position: absolute;
+    top: 18em;
+    right:6em;
+    margin: -3em;
+    background-color: rg(255,255,255,0.6);
+    text-overflow: ellipsis;
+}
+.klove {
+    position: absolute;
+    top: 30em;
+    left: 10em;
+    font-family: 'Satisfy', cursive;
+    width: 4em;
+    text-align: center;
+    z-index: 10;
+}
+.li {
+    background: rgba(800,800,800,0)
+}
+li {
+    display: inline-block;
+    padding: 25px;
+    overflow: visible;
+    
+}
+li a:hover:not(.active) {
+    background-color: #F0D6BD;
+    padding: inherit;
+    color: #000;
+    margin: inherit;
+    clear: right;
+}
+ .active {
+    background-color: #F0D6BD;
+    padding: inherit;
+    color: #000;
+}
+nav {
+    text-align: center;
+    align-content: center;
+    position:absolute;
+    top:29em;
+    right:-1em;
+    width: 82em;
+    z-index: 9;
+    
+    /*border-bottom: solid 30px #EE7ECD;*/
+}
+nav, li, ul {
+    background: white /*#006AB2*/;
+    color: #000;
+    font-weight: 800;
+    overflow: visible;
+    font-family:'Quicksand', sans-serif;
+
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #F0D6BD;
+    background-size: cover;
+}
+
+li.dropdown {
+    display: inline-block;
+    padding: 1.5em;
+    background: 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    padding: 1em;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    padding: 1em;
+}
+body {
+    background-image: url(../images/pink%20flower.jpg);
+    background-size: cover;
+    
+}
+.traincount {
+    position: absolute;
+    top: 33.7em;
+    right: 2em;
+    width: 450px;
+    vertical-align: middle;
+    color: black;
+    margin-top: 5px;
+    background-color: red;
+    padding: 4px;
+    font-size: 1em;
+}
+.main {
+    background-color: rgba(192,202,218,.9);
+    position:absolute;
+    top: 35em;
+    margin: 5em;
+    padding: 2em;
+}
+h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 5em;
+    font-weight: 100;
+}
+h4 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+img {
+    width: 200px;
+    position: absolute;
+    float: right;
+    right: 12em;
+    top: 5em;
+}
